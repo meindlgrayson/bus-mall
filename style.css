@@ -1,0 +1,10 @@
+body {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#photos {
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
