@@ -6,5 +6,19 @@ body {
 #photos {
     border: 2px solid black;
     border-radius: 10px;
+    padding:10px;
 
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+img_one {
+    float: left;
+}
+
+img_three {
+    float: right;
 }
