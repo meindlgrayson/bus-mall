@@ -99,7 +99,8 @@ function clickHandler(event) {
   if (itemClicked.length <= 25) {
     generateFollowing();
   } else {
-    alert('test complete'); /*WHAT HAPPENS AFTER TEST*/
+    var post = document.getElementById('instructions');
+    post.textContent = "Test Complete! - Results Displayed Below" /*WHAT HAPPENS AFTER TEST*/
     for (var i = 0; i < itemShown.length; i++) {
       for (var j = 0; j < objectImages.length; j++) {
         if (itemShown[i] === objectImages[j].path) {

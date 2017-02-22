@@ -2,10 +2,11 @@ body {
     width: 950px;
     margin: 0 auto;
     padding: 20px;
+    background-color: mediumpurple;
 }
 
 #photos {
-    border: 2px solid black;
+    border: 2px solid grey;
     border-radius: 10px;
     padding:10px;
 
@@ -31,4 +32,20 @@ div {
     margin: 20px 20px;
     width: 660px;
     margin: 0 auto;
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+    font-family: 'Corben', cursive;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Corben', cursive;
+    font-size: 28px;
 }
