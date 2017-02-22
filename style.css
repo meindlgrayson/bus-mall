@@ -1,6 +1,7 @@
 body {
     width: 950px;
     margin: 0 auto;
+    padding: 20px;
 }
 
 #photos {
@@ -13,6 +14,9 @@ body {
 img {
     width: 200px;
     height: 200px;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 10px;
 }
 
 img_one {
@@ -21,4 +25,10 @@ img_one {
 
 img_three {
     float: right;
+}
+
+div {
+    margin: 20px 20px;
+    width: 660px;
+    margin: 0 auto;
 }
