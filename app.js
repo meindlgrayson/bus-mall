@@ -78,22 +78,22 @@ generateFirstNum();
 function generateFollowing() {
   var imageNumOne = generateNum();
   console.log(imageNumOne);
-  while(objectImages[imageNumOne].path === itemShown[0] || objectImages[imageNumOne].path === itemShown[1] || objectImages[imageNumOne].path === itemShown[2]){
+  while (objectImages[imageNumOne].path === itemShown[0] || objectImages[imageNumOne].path === itemShown[1] || objectImages[imageNumOne].path === itemShown[2]) {
     imageNumOne = generateNum();
   }
   first.src = objectImages[imageNumOne].path;
-  itemShown.unshift(objectImages[imageNumOne].path);
   var imageNumTwo = generateNum();
-  while(imageNumOne === imageNumTwo || objectImages[imageNumTwo].path === itemShown[0] || objectImages[imageNumTwo].path === itemShown[1] || objectImages[imageNumTwo].path === itemShown[2]) {
+  while (imageNumOne === imageNumTwo || objectImages[imageNumTwo].path === itemShown[0] || objectImages[imageNumTwo].path === itemShown[1] || objectImages[imageNumTwo].path === itemShown[2]) {
     imageNumTwo = generateNum();
   }
   second.src = objectImages[imageNumTwo].path;
-  itemShown.unshift(objectImages[imageNumTwo].path);
   var imageNumThree = generateNum();
   while (imageNumThree === imageNumOne || imageNumThree === imageNumTwo || objectImages[imageNumThree].path === itemShown[0] || objectImages[imageNumThree].path === itemShown[1] || objectImages[imageNumThree].path === itemShown[2]) {
     imageNumThree = generateNum();
   }
   third.src = objectImages[imageNumThree].path;
+  itemShown.unshift(objectImages[imageNumOne].path);
+  itemShown.unshift(objectImages[imageNumTwo].path);
   itemShown.unshift(objectImages[imageNumThree].path);
 }
 
