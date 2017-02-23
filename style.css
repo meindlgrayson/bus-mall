@@ -1,0 +1,51 @@
+body {
+    width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: mediumpurple;
+}
+
+#photos {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding:10px;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+img_one {
+    float: left;
+}
+
+img_three {
+    float: right;
+}
+
+div {
+    margin: 20px 20px;
+    width: 660px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+    font-family: 'Corben', cursive;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Corben', cursive;
+    font-size: 28px;
+}
